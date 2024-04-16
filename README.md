@@ -11,4 +11,4 @@
 
 ### Screenshots
 
-![Screenshot 1](./assets/project.png)
+![Screenshot 1](./src/assets/project.png)
