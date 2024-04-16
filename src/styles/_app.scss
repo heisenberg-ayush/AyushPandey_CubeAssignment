@@ -41,7 +41,7 @@ a{
 }
 
 .adminContainer{
-  @include grid(2fr 4fr, 2rem);
+  @include grid(2fr 4fr, 0rem);
   height: 100vh;
   background-color: rgb(247,247,247);
 
@@ -73,7 +73,7 @@ a{
         width: 100%;
         padding: 2rem;
         border-bottom: 2px solid rgb(247,247,247);
-        margin-bottom: 1rem;
+        // margin-bottom: 1rem;
         > h3{
             font-family: 'Courier New', Courier, monospace;
         }
@@ -113,7 +113,8 @@ a{
 
 
 .mainy {
-    margin-top: 2.5rem;
+    padding-top: 2.5rem;
+    background-color: rgb(247,247,247);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,6 +133,7 @@ a{
     display: flex;
     flex-wrap: wrap;
     width: 800px;
+    height: min-h-screen;
     justify-content: center;
   }
   
