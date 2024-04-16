@@ -10,7 +10,9 @@ interface UnsplashImage {
 }
 
 function Assgn() {
-  const apiKey: string = import.meta.env.VITE_CLI;
+  // Making the api key public for testing
+  const apiKey: string = 'lw_i9MMceKN_ML_T57zwDlTh0z8aIhlI-KPQD92i4-Y';
+  // const apiKey: string = import.meta.env.VITE_CLI;
 
   // const location = useLocation();
   const { selectedComponent } = useSelectedComponent();
